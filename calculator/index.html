@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator-web-app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="container-fluid">
+                <div id="calculator">
+            <div class="row">
+                <div class="container-fluid">
+
+                
+
+                
+                    <div class="col-12 ">
+                        
+                      
+                           <input type="textarea"  id="results" class="inputbox">
+                       </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-offset-3">
+                            <button class="keys" onclick="clearresults()" style="background-color: lightblue;">AC</button> 
+                            <button class="keys1" onclick="square()" style="background-color: lightblue;">x^2</button>
+                            <button class="keys1" onclick="cube()" style="background-color: lightblue;">x^3</button>
+                            <button class="keys1" onclick="root()" style="background-color: lightblue">√</button>
+    
+    
+                        </div>
+                        
+    
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    <div class="col-xs-offset-3">
+                        <button class="keys" onclick="getnumber('1')">1</button> 
+                        <button class="keys1" onclick="getnumber('2')">2</button>
+                        <button class="keys1" onclick="getnumber('3')">3</button>
+                        <button class="keys1" onclick="getnumber('+')" style="background-color: lightblue;">+</button>
+
+
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-3">
+                        <button class="keys"onclick="getnumber('4')">4</button> 
+                        <button class="keys1" onclick="getnumber('5')">5</button>
+                        <button class="keys1" onclick="getnumber('6')">6</button>
+                        <button class="keys1" onclick="getnumber('-')" style="background-color: lightblue;">-</button>
+
+
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-3">
+                        <button class="keys" onclick="getnumber('7')">7</button> 
+                        <button class="keys1" onclick="getnumber('8')">8</button>
+                        <button class="keys1" onclick="getnumber('9')">9</button>
+                        <button class="keys1" onclick="getnumber('*')" style="background-color: lightblue;">*</button>
+
+
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-3">
+                        <button class="keys" onclick="getnumber('.')">.</button> 
+                        <button class="keys1" onclick="getnumber('0')">0</button>
+                        <button class="keys1" onclick="getnumber('.00')">.00</button>
+                        <button class="keys1" onclick="getnumber('/')" style="background-color: lightblue;">/</button>
+
+
+                    </div>
+                    
+
+                </div>
+                <div class="row">
+                    <div class="col-xs-offset-3">
+                        <button id="eval" onclick="getresult()" style="background-color: lightcoral;">Enter</button>
+                        <h6 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+                        'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+                        Verdana, sans-serif; font-size: larger;">Calculator By Laiba Sohail</h6>
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
